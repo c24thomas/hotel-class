@@ -11,7 +11,7 @@ It is estimated that there are 20-40 million victims of human trafficking global
 # Problem Statement:
 This March, TraffickCam launched a [Kaggle contest](https://www.kaggle.com/c/hotel-id-2021-fgvc8/overview) that tasked competitors with identifying the hotel seen in test images from the TraffickCam dataset.
 
-
+<img src=>
 
 
 McGruff LLC aims to build a model that can pinpoint specific hotel IDs within the 7,770 hotels present in the dataset.
