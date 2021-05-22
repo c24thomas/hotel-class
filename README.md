@@ -9,7 +9,7 @@ It is estimated that there are 20-40 million victims of human trafficking global
 
 
 # Problem Statement:
-This March, TraffickCam launched a kaggle contest that tasked competitors with identifying the hotel seen in test images from the TraffickCam dataset.
+This March, TraffickCam launched a [Kaggle contest](https://www.kaggle.com/c/hotel-id-2021-fgvc8/overview) that tasked competitors with identifying the hotel seen in test images from the TraffickCam dataset.
 
 
 McGruff LLC aims to build a model that can pinpoint specific hotel IDs within the 7,770 hotels present in the dataset.
@@ -44,21 +44,15 @@ Within the TraffickCam dataset, a chain of zero (0) indicates that the hotel is 
 There is the issue of high intra-class variation: not every room will have shared objects and some rooms may have been renovated.
 
 
-Conversely,  there is also the issue of low inter-class variation with hotels from the same chain.
-
-
-# Methods:
-
-
-
-
-
+Conversely, there is also the issue of low inter-class variation with hotels from the same chain.
 
 
 
 # Modeling:
 
-- 
+- Pre-trained VGG-16 network into PCA into Kmeans clustering
+- CNNs of varying size, complexity, data augmentation, and regularization
+- Out-of-the-box logistic regression
 
 # Recommendations & Conclusion:
 
@@ -72,4 +66,7 @@ Conversely,  there is also the issue of low inter-class variation with hotels fr
 - Don’t assume all Kaggle submission processes are the same
 
 
-Hotel recognition posed unique challenges.  It required that our models learn both the shared and specific characteristics.
+### Hotel recognition posed unique challenges. It required that our models learn both the shared ***and*** specific characteristics of hotel rooms. In the end, our best models only achieved ~2-4% validation accuracy. 
+
+Moving forward, we plan on incorporating the cluster data into a CNN as an additional feature. 
+Additionally, we would like to import a pre-trained model to do the heavy lifting, as fitting models on even small subsets of the dataset ended up taking hours.
