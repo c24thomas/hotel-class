@@ -2,7 +2,7 @@
 Human Trafficking is the unlawful act of transporting or coercing people in order to benefit from their work or service, typically in the form of forced labor or sexual exploitation
 
 
-The issue of human trafficking has received more widespread media attention and public concern in recent years as it is the world’s third-largest criminal industry, trailing only the drug and weapons trade.
+The issue of human trafficking has received more widespread media attention and public concern in recent years as it is the world’s third-largest criminal industry, trailing only the drug and weapons trades.
 
 
 It is estimated that there are 20-40 million victims of human trafficking globally, with hundreds of thousands in the United States. 
@@ -10,6 +10,8 @@ It is estimated that there are 20-40 million victims of human trafficking global
 
 # Problem Statement:
 This March, TraffickCam launched a [Kaggle contest](https://www.kaggle.com/c/hotel-id-2021-fgvc8/overview) that tasked competitors with identifying the hotel seen in test images from the TraffickCam dataset.
+
+
 
 
 McGruff LLC aims to build a model that can pinpoint specific hotel IDs within the 7,770 hotels present in the dataset.
