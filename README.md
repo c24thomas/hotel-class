@@ -26,7 +26,7 @@ TraffickCam allows anyone with a smartphone to fight sex trafficking when they t
 # EDA:
 
 
-
+<img src='./media/eda_hist_1.png'>
 
   
 
@@ -34,10 +34,10 @@ The two histograms characterize the sampling in the dataset. Figure A shows the 
 represented in the TraffickCam dataset. Figure B shows the number of images per hotel id. Some chains have many more images than others.
 
 
-Average number of images per hotel -20 samples
+Average number of images per hotel ~20 samples
 
 
-Observations:
+# Observations:
 Within the TraffickCam dataset, a chain of zero (0) indicates that the hotel is either not part of a chain or the chain is not known.
 
 
@@ -47,7 +47,7 @@ There is the issue of high intra-class variation: not every room will have share
 Conversely,  there is also the issue of low inter-class variation with hotels from the same chain.
 
 
-Methods:
+# Methods:
 
 
 
@@ -56,16 +56,20 @@ Methods:
 
 
 
-Modeling:
-Recommendations & Conclusion:
+# Modeling:
+
+- 
+
+# Recommendations & Conclusion:
 
 
-Utilize top K accuracy as the evaluation metric setting K = {1,10,100}.
-Use clusters as additional feature for CNN
-Utilize pre-trained models
-Don’t try to fit on 97,000 images on CPU
-Don’t underestimate the size and complexity of the problem statement
-Don’t assume all Kaggle submission processes are the same
+- Utilize top K accuracy as the evaluation metric setting K = {1,10,100}.
+- Use clusters as additional feature for CNN
+- Utilize pre-trained models
+
+- Don’t try to fit on 97,000 images on CPU
+- Don’t underestimate the size and complexity of the problem statement
+- Don’t assume all Kaggle submission processes are the same
 
 
-Hotel recognition posed unique challenges.  It required that our models learn both the shared and  specific characteristics.
+Hotel recognition posed unique challenges.  It required that our models learn both the shared and specific characteristics.
