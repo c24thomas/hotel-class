@@ -19,10 +19,11 @@ McGruff LLC aims to build a model that can pinpoint specific hotel IDs within th
 
 [TraffickCam](https://www.exchangeinitiative.com/traffickcam/) allows anyone with a smartphone to fight sex trafficking when they travel by uploading photos of hotel rooms to a law enforcement database. It is currently in use at the National Center for Missing and Exploited Children.
 
+# Dataset
 
-
-
-
+- ~97,000 images
+- 7,770 unique hotel (class) ids
+- 88 distinct hotel chains
 
 
 # EDA:
